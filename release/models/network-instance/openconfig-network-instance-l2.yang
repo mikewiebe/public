@@ -32,6 +32,13 @@ submodule openconfig-network-instance-l2 {
     reference "0.17.0";
   }
 
+  revision "2021-11-17" {
+    description
+      "Add prefix to qualification prefix to when statements
+      at identifier level.";
+    reference "0.16.2";
+  }
+
   revision "2021-07-22" {
     description
       "Remove unused imported models.";
